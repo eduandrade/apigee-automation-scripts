@@ -1,0 +1,14 @@
+#Path to the input csv file
+INPUT_FILE=
+
+#Apigee Management API url
+MGMT_URL=https://api.enterprise.apigee.com/v1
+#Apigee OAuth token endpoint
+TOKEN_URL=https://login.apigee.com/oauth/token
+#Apigee OAuth credentials
+TOKEN_USER=
+TOKEN_PASS=
+TOKEN_AUTH_HEADER=
+
+#Apigee organization
+ORGANIZATION=

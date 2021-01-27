@@ -1,0 +1,22 @@
+{
+  "name": "apigee-automation-scripts",
+  "version": "1.0.0",
+  "description": "Automate administrative tasks on Apigee",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "devs-apps:create": "node create-devs-apps.js",
+    "devs-apps:delete": "node delete-devs-apps.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Andrade",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "csv-parse": "^4.15.0",
+    "dotenv": "^8.2.0",
+    "qs": "^6.9.6"
+  }
+}
